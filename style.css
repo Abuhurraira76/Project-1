@@ -311,12 +311,11 @@ padding-right: 70%;
                     box-shadow: 0 10px 10px -4px #cc2c14;
                 }
 
-                .box6 h2{
-                    padding-right: 65%;
+.box6 h2{
+    padding-right: 65%;
     font-size: 24px;
     font-weight: 500;
-                
-                }
+}
 
                 .box6 .arrow{
                     padding-left: 260px;
@@ -330,6 +329,114 @@ padding-right: 70%;
                 .box6:hover{
                         background-color: #cc2c14;
                         color:white;
-                    }                 
+                    }    
 
-            
+                    .package h1{
+                        padding: 50px;
+                        color: white;
+                        font-size: 64px;
+                        font-weight: 500;
+                    margin: 0px 0px 0px 16px;
+                    }   
+                    
+                    .para{
+                        font-family: 'Poppins';
+                        margin: 0px 0px 0px 72px;
+                        color: white;
+                        font-size: 32px;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+.cards{
+    font-family: 'Poppins';
+    width: 350px;
+height: 400px;
+display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background:black;
+                    border: 2px solid #cc2c14;
+                    color: white;
+                    box-sizing: border-box;
+                    float:left;
+                    margin-top: 50px;
+                    margin-left: 80px;
+                    margin-right: 20px;
+                    border-radius: var(--16, 16px); background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
+}
+.cards h1{
+    padding-right: 260px;
+    padding-left: 40px;
+    padding-bottom: 180px;
+    margin: 0 0 12px;
+    font-weight: 400;
+}
+
+.cards1{
+    font-family: 'Poppins';
+    width: 354px;
+height: 400px;
+display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background:black;
+                    border: 2px solid #cc2c14;
+                    color: white;
+                    box-sizing: border-box;
+                    float:right;
+                    margin-top: 50px;
+                    margin-left: 40px;
+                    margin-right: 20px;
+                    padding-left: 50px;
+                    border-radius: var(--16, 16px); background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
+}
+.cards1 h1{
+    font-weight: 400;
+    padding-right: 260px;
+    padding-left: 40px;
+    padding-bottom: 160px;
+    margin: 0 0 12px;
+}
+
+.cards2{
+    font-family: 'Poppins';
+    width: 384px;
+height: 400px;
+display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background:black;
+                    border: 2px solid #cc2c14;
+                    box-sizing: border-box;
+                    color: white;
+                    float:center;
+                    margin-top: 50px;
+                    margin-left: 80px;
+                    margin-right: 20px;
+                    border-radius: var(--16, 16px); 
+                    background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
+}
+.cards2 h1{
+    padding-right: 260px;
+    padding-left: 30px;
+    font-weight: 400;
+    padding-bottom: 180px;
+    margin:0 0 12px;
+}
+.cards2 h2{
+    padding-right: 260px;
+    padding-left: 10px;
+    font-weight: 400;
+    padding-top: 0px;
+}
+.partners h3{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    padding-bottom: 160px;
+}
