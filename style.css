@@ -90,439 +90,78 @@ opacity: 0.5;
     font-size: 64px;
     font-weight: 500;
     padding-bottom: 70px;
+    padding-left: 100px;
 }
 
-
-
-.box1{
-    width: 384px; /* Adjust box width as needed */
-    height: 350px; /* Adjust box height as needed */
-    border-radius: 8px; 
-    display:flex;
+.services-container {
+    width: 300px; 
+    height: 350px; 
+    margin: 60px;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
     flex-direction: column;
+    gap: 10px;
+}
+.box{
+    width: 300px;
+    height: 380px; 
+    border-radius: 8px; 
+    flex-wrap: wrap;
+    align-items: center;
     background:black;
     border: 2px solid #cc2c14;
     color: white;
-    float:left;
-    margin-left: 20px;
-        margin-right: 10px;
-        box-shadow: 0 10px 10px -4px #cc2c14;
-}
-
-.box1 .arrow{
-    padding-left: 260px;
-    padding-bottom: 40px;
-}
-
-/* arrow icon hover is not working // */
-/* //.box1:hover img.arrow{ */
-    /* color: white; */
-/* } */
-.box1 h2{
-    padding-right: 65%;
-    font-size: 24px;
-    font-weight: 500;
-    
-}
-.webdev{
-padding-right: 70%;
-
-}
-
-.box1:hover{
-    background-color: #cc2c14;
-    color:white;
-
-}
-
-.box1:hover .webdev{
-  color: white;
-}
-
-.box2{
-    width: 384px; /* Adjust box width as needed */
-    height: 350px; /* Adjust box height as needed */
-    border-radius: 8px; 
-    margin-left: 20px;
-    margin-right: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
     flex-direction: column;
-    background:black;
-    border: 2px solid #cc2c14;
-    color: white;
-    float:left;
+    margin-left: 20px;
+    margin-right: 10px;
     box-shadow: 0 10px 10px -4px #cc2c14;
 }
 
-.box2 h2{
-    padding-right: 65%;
-    font-size: 24px;
-    font-weight: 500;
-
-}
-
-.SEO{
-    padding-right: 70%;
-    }
-
-    .box2 .arrow{
-        padding-left: 260px;
-        padding-bottom: 40px;
-    }
-
-.box2:hover{
-        background-color: #cc2c14;
-        color:white;
-    }
-    
-.box3{
-        width: 384px; /* Adjust box width as needed */
-        height: 350px; /* Adjust box height as needed */
-        border-radius: 8px; 
-        margin-left: 10px;
-        margin-right: 20px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background:black;
-        border: 2px solid #cc2c14;
-        color: white;
-        float:left;
-        margin-top: 0%;
-        box-shadow: 0 10px 10px -4px #cc2c14;
-    }
-.box3 h2{
-    padding-right: 65%;
-    font-size: 24px;
-    font-weight: 500;
-    
-    
-    }
-    
-    .box3 .arrow{
-        padding-left: 260px;
-        padding-bottom: 40px;
-    }  
-.security{
-        padding-right: 70%;
-    }
-    
-    .box3:hover{
-            background-color: #cc2c14;
-            color:white;
-        }    
- 
-.box4{
-      width: 384px; /* Adjust box width as needed */
-      height: 350px; /* Adjust box height as needed */
-      margin-left: 20px;
-      margin-right: 10px;
-      margin-bottom: 20%;
-      margin-top: 4%;
-      display:flex;
-      justify-content: center;
-       align-items: center;
-      flex-direction: column;
-      background:black;
-      border: 2px solid #cc2c14;
-     color: white;
-     float:left;
-     border-radius: 8px; 
-     box-shadow: 0 10px 10px -4px #cc2c14;
-        }
-.box4 h2{
-    padding-right: 65%;
-    font-size: 24px;
-    font-weight: 500;
-        }
-        
-.marketing{
-            padding-right: 70%;
-            }
-.box4 .arrow{
-                padding-left: 260px;
-                padding-bottom: 40px;
-            }
-        .box4:hover{
-                background-color: #cc2c14;
-                color:white;
-            } 
-            
-            .box5{
-                width: 384px; /* Adjust box width as needed */
-                height: 350px; /* Adjust box height as needed */
-                border-radius: 8px; 
-                margin-left: 20px;
-      margin-right: 10px;
-      margin-bottom: 20%;
-      margin-top: 4%;
-                display:flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                background:black;
-                border: 2px solid #cc2c14;
-                color: white;
-                float:left;
-                flex-shrink: 0; 
-                box-shadow: 0 10px 10px -4px #cc2c14;
-            }
-            .box5 h2{
-                padding-right: 65%;
-    font-size: 24px;
-    font-weight: 500;
-            
-            }
-            .box5 .arrow{
-                padding-left: 260px;
-                padding-bottom: 40px;
-            }
-        .uxdesign{
-                padding-right: 70%;
-                }
-            
-            .box5:hover{
-                    background-color: #cc2c14;
-                    color:white;
-                } 
-                
-                .box6{
-                    width: 384px; /* Adjust box width as needed */
-                    height: 350px; /* Adjust box height as needed */
-                    border-radius: 8px; 
-                    margin-left: 24px;
-      margin-right: 10px;
-      margin-bottom: 20%;
-      margin-top: 4%;
-                    display:flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    background:black;
-                    border: 2px solid #cc2c14;
-                    color: white;
-                    float:left;
-                    flex-shrink: 0; 
-                    box-shadow: 0 10px 10px -4px #cc2c14;
-                }
-
-.box6 h2{
-    padding-right: 65%;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-                .box6 .arrow{
-                    padding-left: 260px;
-                    padding-bottom: 40px;
-                }
-
-                .mobdev{
-                    padding-right: 70%;
-                    }
-                
-                .box6:hover{
-                        background-color: #cc2c14;
-                        color:white;
-                    }    
-
-                    .package h1{
-                        padding: 50px;
-                        color: white;
-                        font-size: 64px;
-                        font-weight: 500;
-                    margin: 0px 0px 0px 16px;
-                    }   
-                    
-                    .para{
-                        font-family: 'Poppins';
-                        margin: 0px 0px 0px 72px;
-                        color: white;
-                        font-size: 32px;
-                        font-weight: 400;
-                        font-style: normal;
-                    }
-.cards{
-    font-family: 'Poppins';
-    width: 350px;
-height: 400px;
-display:flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    background:black;
-                    border: 2px solid #cc2c14;
-                    color: white;
-                    box-sizing: border-box;
-                    float:left;
-                    margin-top: 50px;
-                    margin-left: 80px;
-                    margin-right: 20px;
-                    border-radius: var(--16, 16px); background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
-}
-.cards h1{
-    padding-right: 260px;
-    padding-left: 40px;
-    padding-bottom: 180px;
-    margin: 0 0 12px;
-    font-weight: 400;
-}
-
-.cards1{
-    font-family: 'Poppins';
-    width: 354px;
-height: 400px;
-display:flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    background:black;
-                    border: 2px solid #cc2c14;
-                    color: white;
-                    box-sizing: border-box;
-                    float:right;
-                    margin-top: 50px;
-                    margin-left: 40px;
-                    margin-right: 20px;
-                    padding-left: 50px;
-                    border-radius: var(--16, 16px); background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
-}
-.cards1 h1{
-    font-weight: 400;
-    padding-right: 260px;
-    padding-left: 40px;
-    padding-bottom: 160px;
-    margin: 0 0 12px;
-}
-
-.cards2{
-    font-family: 'Poppins';
-    width: 384px;
-height: 400px;
-display:flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    background:black;
-                    border: 2px solid #cc2c14;
-                    box-sizing: border-box;
-                    color: white;
-                    float:center;
-                    margin-top: 50px;
-                    margin-left: 80px;
-                    margin-right: 20px;
-                    border-radius: var(--16, 16px); 
-                    background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
-}
-.cards2 h1{
-    padding-right: 260px;
-    padding-left: 30px;
-    font-weight: 400;
-    padding-bottom: 180px;
-    margin:0 0 12px;
-}
-.cards2 h2{
-    padding-right: 260px;
-    padding-left: 10px;
-    font-weight: 400;
-    padding-top: 0px;
-}
-.partners h3{
-    text-align: center;
-    margin-top: 200px;
+.package h1{
+    padding: 0;
     color: white;
     font-size: 64px;
-    font-weight: 400;
-    padding-bottom: 160px;
+    font-weight: 500;
+    padding-bottom: 70px;
+    padding-left: 100px;
 }
 
-.container {
-    min-height: 100vh;
+.para{
+    font-family: 'Poppins';
+    margin: 0px 0px 0px 72px;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+.packages-containers{
+    width: 300px; 
+    height: 350px; 
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+} 
+.cards{
+    font-family: 'Poppins';
+    width: 25%;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .container form {
-    width: 670px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    background: black;
-    flex-wrap: wrap;
-  }
-  .container form h1 {
-    color: #fff;
-    float: left;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-right: 100px;
-    font-size: 64px;
-    width: 500px;
-    text-align: center;
-  }
-  .container form input {
-    width: 300px;
-    height: 50px;
-    padding-right: 100px;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
-  }
-  .container form input::placeholder {
-    color: #fff;
-  }
-  
-  .container form h4 {
-    color: #fff;
-    font-size: 32px;
-    width: 600px;
-    margin-top: 20px;
-  }
-  .container form textarea {
-    background: none;
-    border: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
-    font-weight: 200;
-    font-size: 20px;
-    padding: 10px;
-    outline: none;
-    min-height: 90px;
-    max-height: 90px;
-    min-width: 620px;
-    max-width: 620px;
-  }
-  .container form h4 {
-    font-size: 20px;
-  }
-  .container form #button {
-    border: none;
-    background: transparent;
-    border-radius: 100px;
-    margin-top: 20px;
-    font-weight: 600;
-    font-size: 24px;
+    flex-direction: column;
+    background:black;
+    border: 2px solid #cc2c14;
     color: white;
-    width: 200px;
-    height: 60px;
-    padding: 0;
-    margin-bottom: 30px;
-    transition: 0.3s;
-  }
-  
-  .container form #button:hover{
-      background: #cc2c14;
-      color: black;
-      transition: .5s ease-in-out;
-  }
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 20px;
+    border-radius: 16px; 
+    background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
+}
