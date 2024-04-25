@@ -89,79 +89,83 @@ opacity: 0.5;
     color: white;
     font-size: 64px;
     font-weight: 500;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     padding-left: 100px;
 }
 
-.services-container {
-    width: 300px; 
-    height: 350px; 
-    margin: 60px;
+.service-container {
+    color: white;
+    width: 100%;
+    margin: 50px;
     display: flex;
-    justify-content: center;
-    box-sizing: border-box;
     flex-wrap: wrap;
-    flex-direction: column;
-    gap: 10px;
+    padding: 0px 36px;
+    
 }
+
 .box{
-    width: 300px;
-    height: 380px; 
-    border-radius: 8px; 
-    flex-wrap: wrap;
+    width: 380px;
+    height: 365px; 
+    margin: 10px 10px 40px 50px;
+    flex-basis: 24%;
+    display: flex;
+    padding-left: 20px;
+    background-color: black;
     align-items: center;
-    background:black;
-    border: 2px solid #cc2c14;
-    color: white;
-    display: flex;
+    border:1px solid #cc2c14;
     flex-direction: column;
-    margin-left: 20px;
-    margin-right: 10px;
+    border-radius: 8px;
     box-shadow: 0 10px 10px -4px #cc2c14;
+
 }
 
-.package h1{
-    padding: 0;
-    color: white;
-    font-size: 64px;
-    font-weight: 500;
-    padding-bottom: 70px;
-    padding-left: 100px;
+.arrow {
+    padding-left: 160px;
+    padding-top: 20px;
 }
 
-.para{
-    font-family: 'Poppins';
-    margin: 0px 0px 0px 72px;
-    color: white;
-    font-size: 32px;
-    font-weight: 400;
-    font-style: normal;
-}
-.packages-containers{
-    width: 300px; 
-    height: 350px; 
-    margin: 60px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+.box h2{
+  padding-top: 80px;
+  padding-right: 140px;
 
 } 
-.cards{
-    font-family: 'Poppins';
-    width: 25%;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background:black;
-    border: 2px solid #cc2c14;
-    color: white;
-    box-sizing: border-box;
-    margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 20px;
-    border-radius: 16px; 
-    background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
+
+.box p{
+    padding-right: 10px;
+padding-bottom: 50px;
 }
+
+.box:hover,.box:hover img, .arrow:hover {
+    background-color: #cc2c14;
+    color:white;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width:767px){
+    .service-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .box{
+        margin: 10px;
+    }
+}
+
+.package{
+    
+}
+.packages-containers {
+    width: 1400px; 
+    margin: 50px;
+    padding: 0px 36px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    border: solid 1px red; /* Changed from border-color */
+} 
+
+
+
+
