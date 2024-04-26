@@ -90,8 +90,9 @@ opacity: 0.5;
     font-size: 64px;
     font-weight: 500;
     padding-bottom: 40px;
-    padding-left: 100px;
+    padding-left: 180px;
 }
+
 
 .service-container {
     color: white;
@@ -100,7 +101,6 @@ opacity: 0.5;
     display: flex;
     flex-wrap: wrap;
     padding: 0px 36px;
-    
 }
 
 .box{
@@ -118,7 +118,6 @@ opacity: 0.5;
     box-shadow: 0 10px 10px -4px #cc2c14;
 
 }
-
 .arrow {
     padding-left: 160px;
     padding-top: 20px;
@@ -152,20 +151,188 @@ padding-bottom: 50px;
     }
 }
 
-.package{
-    
+.package h2{
+    padding: 0;
+    color: white;
+    font-size: 64px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    padding-left: 100px;
 }
-.packages-containers {
-    width: 1400px; 
+
+.para{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.package{
+    width: 100%;
     margin: 50px;
     padding: 0px 36px;
+}
+.packages-container {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    padding-left: 60px;
+}
+
+.card{
+    width: 300px;
+    height: 365px; 
+    background-color: white;
+    display: flex;
     flex-direction: column;
+    background-color: black;
+    align-items: left;
+    border:1px solid #cc2c14;
+    flex-direction: column;
+    border-radius: 16px;
     color: white;
-    border: solid 1px red; /* Changed from border-color */
-} 
+    background: linear-gradient(71deg, rgba(255, 97, 33, 0.70) 10.66%, rgba(204, 43, 20, 0.70) 26.32%, rgba(21, 21, 21, 0.70) 81.63%);
+    margin-top: 50px; 
+    margin-right: 40px;
+    border-radius: 16px; 
+}   
 
 
+.bit{
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.dollar{
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.packages-container p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.btn-card{
+    background: transparent;
+    border: none;
+    padding-right: 120px;
+    color: white;
+    padding-top: 10px;
+}
+
+.btn-card:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 1px 6px 1px 11px;
+}
+
+.orders{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 110px;
+}
+
+.partners{
+    font-size: 40px;
+    background-position: center;
+    color: white;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; 
+}
+
+.contact{
+    font-size: 70px;
+    color: white;
+    padding-bottom: 20px;
+}
+.mail{
+    color: white;
+    font-size: 32px;
+}
+
+.detail{
+    color: white;
+    font-size: 20px;
+    padding-top: 200px;
+}
+.no{
+    padding-top: 20px;
+    font-size: 28px;
+}
+.contact-for{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 30px;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.form-container .form-detail{
+    width: 370px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.form-container .form-detail .inputbox{
+    position: relative;
+    padding: 20px 0;
+}
 
 
+.contactform{
+    width: 40%;
+    padding: 40px;
+    color: white;
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    border-bottom: none;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 32px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+
+}
+.contactform #button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+.contactform #button:hover{
+    background-color: #cc2c14;
+    color: white;
+    border-radius: 32px;
+    border-right: 2px;
+    border: none;
+    padding: 1px 11px;
+}
