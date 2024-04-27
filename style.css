@@ -336,3 +336,32 @@ padding-bottom: 50px;
     border: none;
     padding: 1px 11px;
 }
+
+footer{
+    background-color: #151515;
+
+}
+.footerlogo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    padding-left: 20px;
+}
+
+.foot{
+  font-size: 32px;
+  color: #cc2c14;
+  font-weight: 500;
+  
+}
+
+.footerlogo p{
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: 350px;
+}
